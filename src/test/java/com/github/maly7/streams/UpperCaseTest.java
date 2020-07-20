@@ -1,8 +1,8 @@
-package com.github.maly7.javastreams;
+package com.github.maly7.streams;
 
 import org.junit.jupiter.api.Test;
 
-import static com.github.maly7.javastreams.UpperCase.mapToUppercase;
+import static com.github.maly7.streams.UpperCase.mapToUppercase;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class UpperCaseTest {

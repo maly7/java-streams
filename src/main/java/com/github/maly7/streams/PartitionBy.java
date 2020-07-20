@@ -1,4 +1,4 @@
-package com.github.maly7.javastreams;
+package com.github.maly7.streams;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,8 +1,8 @@
-package com.github.maly7.javastreams;
+package com.github.maly7.streams;
 
 import org.junit.jupiter.api.Test;
 
-import static com.github.maly7.javastreams.LetterCount.getTotalNumberOfLettersOfNamesLongerThanFive;
+import static com.github.maly7.streams.LetterCount.getTotalNumberOfLettersOfNamesLongerThanFive;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class LetterCountTest {

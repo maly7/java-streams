@@ -1,4 +1,4 @@
-package com.github.maly7.javastreams;
+package com.github.maly7.streams;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import static com.github.maly7.javastreams.PartitionBy.partitionAdults;
+import static com.github.maly7.streams.PartitionBy.partitionAdults;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class PartitionByTest {

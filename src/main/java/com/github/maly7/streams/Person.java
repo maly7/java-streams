@@ -1,4 +1,4 @@
-package com.github.maly7.javastreams;
+package com.github.maly7.streams;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

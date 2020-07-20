@@ -1,10 +1,10 @@
-package com.github.maly7.javastreams;
+package com.github.maly7.streams;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static com.github.maly7.javastreams.UnderAge.getKidNames;
+import static com.github.maly7.streams.UnderAge.getKidNames;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class UnderAgeTest {
