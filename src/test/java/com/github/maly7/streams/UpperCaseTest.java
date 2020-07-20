@@ -8,7 +8,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class UpperCaseTest {
 
     @Test
-    void test() {
+    void mapToUpperCase_ShouldConverAllStringsToUpperCase() {
         assertThat(mapToUppercase("aaron", "frank", "william", "gilliam"))
                 .containsExactlyInAnyOrder("AARON", "FRANK", "WILLIAM", "GILLIAM");
 

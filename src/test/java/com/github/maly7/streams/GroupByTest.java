@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class GroupByTest {
     @Test
-    void groupByNationalityTest() {
+    void groupByNationality_ShouldReturnNationalitiesMappedToPeople() {
         Person sara = new Person("Sara", 4, "Norwegian");
         Person viktor = new Person("Viktor", 40, "Serbian");
         Person eva = new Person("Eva", 42, "Norwegian");

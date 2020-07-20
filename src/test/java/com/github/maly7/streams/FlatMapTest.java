@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class FlatMapTest {
     @Test
-    void transformShouldFlattenCollection() {
+    void transform_ShouldFlattenCollection() {
         List<List<String>> collection = asList(asList("Viktor", "Farcic"), asList("John", "Doe", "Third"));
         List<String> expected = asList("Viktor", "Farcic", "John", "Doe", "Third");
         assertThat(FlatMap.transform(collection)).hasSameElementsAs(expected);

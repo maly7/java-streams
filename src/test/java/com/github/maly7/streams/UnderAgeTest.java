@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class UnderAgeTest {
     @Test
-    void getKidNameShouldReturnNamesOfAllKidsUnder18() {
+    void getKidName_ShouldReturnNamesOfAllKidsUnder18() {
         Person sara = Person.builder().name("Sara").age(4).build();
         Person viktor = Person.builder().name("Viktor").age(40).build();
         Person eva = Person.builder().name("Eva").age(42).build();

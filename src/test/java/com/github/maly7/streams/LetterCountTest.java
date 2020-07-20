@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class LetterCountTest {
     @Test
-    void test() {
+    void getTotalNumberOfLettersOfNamesLongerThanFive_ShouldReturnTheCountOfLettersInNamesWithLengthGreaterThanFive() {
         assertThat(getTotalNumberOfLettersOfNamesLongerThanFive("william", "jones", "aaron", "seppe", "frank", "gilliam"))
                 .isEqualTo(14);
 
