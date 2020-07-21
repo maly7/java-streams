@@ -5,10 +5,10 @@ A collection of java streams and optional challenges
 Work through the exercises in the following order:
 1. UpperCase
 1. LetterCount
+1. UnderAge
 1. FlatMap
 1. MaxAndComparator
 1. SumAndReduce
-1. UnderAge
 1. PartitionBy
 1. GroupBy
 1. Joining
