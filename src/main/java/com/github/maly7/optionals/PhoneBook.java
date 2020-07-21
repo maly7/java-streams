@@ -2,7 +2,9 @@ package com.github.maly7.optionals;
 
 import java.util.HashMap;
 import java.util.Optional;
-
+//<editor-fold desc="hint" defaultstate="collapsed">
+// HINT: https://www.baeldung.com/java-optional
+//</editor-fold>
 public class PhoneBook {
     private static final HashMap<String, String> PHONE_NUMBERS = new HashMap<String, String>() {
         {
