@@ -1,7 +1,10 @@
 package com.github.maly7.optionals;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 public class PhoneBook {
     private static final HashMap<String, String> PHONE_NUMBERS = new HashMap<String, String>() {
@@ -21,11 +24,20 @@ public class PhoneBook {
     }
 
     public Optional<String> findPhoneNumberByName(String name){
-        return null;
+        return Optional.ofNullable(phoneBookEntries.get(name));
     }
 
     public Optional<String> findNameByPhoneNumber(String phoneNumber){
-        return null;
+        return phoneBookEntries.entrySet()
+                .stream()
+                .filter(entry -> phoneNumber.equals(entry.getValue()))
+                .map(entry -> entry.getKey())
+                .findFirst();
+//        Another option that inverts the phone book:
+//        var invertedPhoneNumbers = phoneBookEntries.entrySet()
+//                .stream()
+//                .collect(Collectors.toMap(Entry::getValue, Entry::getKey));
+//        return Optional.ofNullable(invertedPhoneNumbers.get(phoneNumber));
     }
 
     @Override
