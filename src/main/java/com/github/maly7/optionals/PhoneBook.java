@@ -1,10 +1,7 @@
 package com.github.maly7.optionals;
 
 import java.util.HashMap;
-import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 public class PhoneBook {
     private static final HashMap<String, String> PHONE_NUMBERS = new HashMap<String, String>() {
